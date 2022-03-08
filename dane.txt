@@ -1,0 +1,5 @@
+https://recruitmentdb-508d.restdb.io/rest/accounts
+
+https://recruitmentdb-508d.restdb.io/rest/accounttypes
+
+edf2a6114dde6136eb7db095302e37415c606

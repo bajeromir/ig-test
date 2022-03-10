@@ -13,7 +13,7 @@ app.use(
 app.get(':endpoint([\\/\\w\\.-]*)', function (req, res) {
   let endpoint = process.env.API_BASE_URL + req.params.endpoint;
 
-  axios.defaults.headers.common['x-apikey'] = process.env.API_KY;
+  axios.defaults.headers.common['x-apikey'] = process.env.API_KEY;
 
   axios
     .get(endpoint, {

@@ -15,7 +15,7 @@ function App() {
 
   const getAccountTypes = async () => {
     const res = await axios('/accounttypes');
-    res.data.map((el) => {
+    res.data.forEach((el) => {
       accountTypes.set(el.id, el.title);
     });
   };
